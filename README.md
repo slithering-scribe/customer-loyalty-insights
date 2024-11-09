@@ -1,1 +1,1 @@
-# customer-loyalty-insight
+# customer-loyalty-insights
