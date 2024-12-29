@@ -1,4 +1,4 @@
-#Customer Loyalty Insights
+Customer Loyalty Insights
 
 Overview
 Customer Loyalty Insights is a machine learning project aimed at analyzing customer data to gain valuable insights into customer loyalty and retention. By leveraging data science techniques, this project helps businesses understand customer behavior, identify key factors influencing loyalty, and develop strategies to enhance customer retention.
@@ -34,7 +34,7 @@ Referral: Encourage them to refer friends and family.
 
 Appreciate: Show appreciation through personalized messages.
 
-Installation
+#Installation
 To set up the project locally, follow these steps:
 
 Clone the repository:
@@ -52,41 +52,28 @@ Install the required dependencies:
 bash
 pip install -r requirements.txt
 Usage
-Data Preparation:
+Jupyter Notebook
+All implementation details and code are provided within a single Jupyter notebook. Follow the steps below to run the notebook:
 
-Prepare your customer data in a CSV file. Ensure that it includes relevant features such as demographics, purchase history, and engagement metrics.
-
-Load the dataset and perform preprocessing as needed. Detailed code and steps can be found in the repository.
-
-Training Models:
-
-Run the train.py script to train the machine learning models. Use the following command:
+Launch Jupyter Notebook:
 
 bash
-python train.py --data_path data/customers.csv
-Generating Insights:
+jupyter notebook
+Open the notebook:
 
-Use the analyze.py script to generate insights and visualize the results. Use the following command:
+Navigate to the notebooks directory and open the notebook file.
 
-bash
-python analyze.py --data_path data/customers.csv
-Refer to the code files (data_preprocessing.py, feature_engineering.py, model_training.py, and analysis.py) in the src directory for detailed implementations.
+Follow the step-by-step instructions in the notebook to load the data, preprocess it, train models, and generate insights.
 
 #Project Structure
-
 customer-loyalty-insights/
 ├── data/                  # Directory for storing input data files
 ├── models/                # Directory for storing trained models
 ├── notebooks/             # Jupyter notebooks for experimentation and analysis
-├── src/                   # Source code for the project
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   └── analysis.py
 ├── requirements.txt       # List of required Python packages
 └── README.md              # Project documentation
 
-Contributing
+#Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please create an issue or submit a pull request.
 
 License
